@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Workers]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [FIO] NCHAR(50) NOT NULL, 
+    [Payment] FLOAT NOT NULL DEFAULT 0
+)
